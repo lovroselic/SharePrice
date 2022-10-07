@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="CodeAbbey.cpp" />
     <ClCompile Include="Console.cpp" />
+    <ClCompile Include="LS_library.cpp" />
     <ClCompile Include="SharePrice.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CodeAbbey.h" />
     <ClInclude Include="Console.h" />
+    <ClInclude Include="LS_library.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Input_demo.txt" />

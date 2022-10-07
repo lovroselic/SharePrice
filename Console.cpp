@@ -1,3 +1,6 @@
+/*
+	v 0.1
+*/
 #include <iostream>
 #include <vector>
 #include <string>
@@ -22,4 +25,15 @@ void printVector(std::vector<std::string>& vct) {
 	for (std::string v : vct) {
 		std::cout << v << std::endl;
 	}
+}
+
+void print2DVector(std::vector<std::vector<int>>& vct) {
+	for (const auto& row : vct) {
+		for (const auto& col : row) {
+			std::cout << col << "\t";
+		}
+		std::cout << std::endl;
+	}
+	std::cout << std::endl;
+	return;
 }

@@ -24,12 +24,18 @@
     <ClCompile Include="CodeAbbey.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LS_library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Console.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CodeAbbey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LS_library.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
