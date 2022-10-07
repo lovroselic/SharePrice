@@ -17,6 +17,7 @@ void printVector(std::vector<int>& vct) {
 		std::cout << v << std::endl;
 	}
 }
+
 void printVector(std::vector<std::string>& vct) {
 	for (std::string v : vct) {
 		std::cout << v << std::endl;

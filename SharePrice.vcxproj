@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CodeAbbey.cpp" />
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="SharePrice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CodeAbbey.h" />
     <ClInclude Include="Console.h" />
   </ItemGroup>
   <ItemGroup>
