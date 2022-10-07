@@ -11,8 +11,6 @@
 
 using namespace std;
 
-
-
 int main() {
 	cout << "SharePrice v" << VERSION << "!\n\n";
 	string path = "Input_test.txt";
